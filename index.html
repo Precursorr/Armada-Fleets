@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Nova Fleet Builder</title>
+    <title>Armada Fleets</title>
 </head>
 
 <!-- Body -->
@@ -12,13 +12,14 @@
 
     <!-- Heading -->
     <div>
-        <header id="NFB">Nova Fleet Builder</header>
+        <header id="NFB">Armada Fleets</header>
     </div>
 
     <!-- Admiral box, text and command points tally -->
     <div id="container">
         <div id="admiral-box">
-            <button id="btn" onclick="myFunction"><i class="fa-solid fa-plus" style="color: #000000; background-color: #737CA1;"></i></button>
+            <!-- Open admiral modal -->
+            <button class="btn" id="Abtn"><i class="fa-solid fa-plus" style="color: #000000; background-color: #737CA1;"></i></button>
         </div>
         <div id="admiral-text"><h2>Choose Admiral</h2></div>
     </div>
@@ -26,36 +27,48 @@
         <h2 class="cmd">Command Points Available</h2>
         <h1 class="cmd">x/x</h1>
     </div>
+    
+    <!-- Admiral choices -->
+    <div id="admiral-choices" class="modal">
+
+    <!-- Modal content -->
+    <div id="admiral-modal-content">
+        <span class="close">&times;</span>
+        <p>Some text in the Modal..</p>
+    </div>
+
+    </div>
 
     <!-- Rear row -->
     <div id="rear-row">
-        <div class="slots"><button id="btn" onclick="myFunction"><i class="fa-solid fa-plus" style="color: #000000; background-color: #737CA1;"></i></button></div>
-        <div class="slots"><button id="btn" onclick="myFunction"><i class="fa-solid fa-plus" style="color: #000000; background-color: #737CA1;"></i></button></div>
-        <div class="slots"><button id="btn" onclick="myFunction"><i class="fa-solid fa-plus" style="color: #000000; background-color: #737CA1;"></i></button></i></div>
+        <div class="slots"><button class="btn" onclick="myFunction"><i class="fa-solid fa-plus" style="color: #000000; background-color: #737CA1;"></i></button></div>
+        <div class="slots"><button class="btn" onclick="myFunction"><i class="fa-solid fa-plus" style="color: #000000; background-color: #737CA1;"></i></button></div>
+        <div class="slots"><button class="btn" onclick="myFunction"><i class="fa-solid fa-plus" style="color: #000000; background-color: #737CA1;"></i></button></i></div>
     </div>
 
     <!-- Flagship -->
     <div id="flag-row">
-        <div class="slots"><button id="btn" onclick="myFunction"><i class="fa-solid fa-plus" style="color: #000000; background-color: #737CA1;"></i></button></div>
+        <div class="slots"><button class="btn" onclick="myFunction"><i class="fa-solid fa-plus" style="color: #000000; background-color: #737CA1;"></i></button></div>
     </div>
 
     <!-- Main row -->
     <div id="main-row">
-        <div class="slots"><button id="btn" onclick="myFunction"><i class="fa-solid fa-plus" style="color: #000000; background-color: #737CA1;"></i></button></div>
-        <div class="slots"><button id="btn" onclick="myFunction"><i class="fa-solid fa-plus" style="color: #000000; background-color: #737CA1;"></i></button></div>
-        <div class="slots"><button id="btn" onclick="myFunction"><i class="fa-solid fa-plus" style="color: #000000; background-color: #737CA1;"></i></button></div>
-        <div class="slots"><button id="btn" onclick="myFunction"><i class="fa-solid fa-plus" style="color: #000000; background-color: #737CA1;"></i></button></div>
+        <div class="slots"><button class="btn" onclick="myFunction"><i class="fa-solid fa-plus" style="color: #000000; background-color: #737CA1;"></i></button></div>
+        <div class="slots"><button class="btn" onclick="myFunction"><i class="fa-solid fa-plus" style="color: #000000; background-color: #737CA1;"></i></button></div>
+        <div class="slots"><button class="btn" onclick="myFunction"><i class="fa-solid fa-plus" style="color: #000000; background-color: #737CA1;"></i></button></div>
+        <div class="slots"><button class="btn" onclick="myFunction"><i class="fa-solid fa-plus" style="color: #000000; background-color: #737CA1;"></i></button></div>
     </div>
 
     <!-- Front row -->
     <div id="front-row">
-        <div class="slots"><button id="btn" onclick="myFunction"><i class="fa-solid fa-plus" style="color: #000000; background-color: #737CA1;"></i></button></div>
-        <div class="slots"><button id="btn" onclick="myFunction"><i class="fa-solid fa-plus" style="color: #000000; background-color: #737CA1;"></i></button></div>
-        <div class="slots"><button id="btn" onclick="myFunction"><i class="fa-solid fa-plus" style="color: #000000; background-color: #737CA1;"></i></button></div>
-        <div class="slots"><button id="btn" onclick="myFunction"><i class="fa-solid fa-plus" style="color: #000000; background-color: #737CA1;"></i></button></div>
+        <div class="slots"><button class="btn" onclick="myFunction"><i class="fa-solid fa-plus" style="color: #000000; background-color: #737CA1;"></i></button></div>
+        <div class="slots"><button class="btn" onclick="myFunction"><i class="fa-solid fa-plus" style="color: #000000; background-color: #737CA1;"></i></button></div>
+        <div class="slots"><button class="btn" onclick="myFunction"><i class="fa-solid fa-plus" style="color: #000000; background-color: #737CA1;"></i></button></div>
+        <div class="slots"><button class="btn" onclick="myFunction"><i class="fa-solid fa-plus" style="color: #000000; background-color: #737CA1;"></i></button></div>
     </div>
 
 <!-- font awesome script -->
-<script src="https://kit.fontawesome.com/97317b0f17.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/97317b0f17.js " crossorigin="anonymous"></script>
+<script src="assets/scripts/script.js"></script>
 </body>
 </html>
